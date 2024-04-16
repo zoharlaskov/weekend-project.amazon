@@ -1,0 +1,228 @@
+@media (max-width: 600px) {
+    body {
+      width: 100%;
+    }
+    .first-nav {
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+    }
+    .first-nav p {
+      font-size: 12px;
+      padding: 0;
+    }
+    .second-nav .ul-nav {
+      display: none;
+    }
+    .second-nav .btn-dark {
+      display: none;
+    }
+    .hum {
+      display: block;
+      margin-right: 25px;
+    }
+    .btn-x {
+      right: 10px;
+    }
+    .logo {
+      margin-left: 25px;
+    }
+    .hero {
+      flex-direction: column-reverse;
+    }
+    .hero img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 60px;
+    }
+    .header-c {
+      position: absolute;
+      top: 41%;
+      right: 65%;
+      width: 130px;
+    }
+    .hero .flex-column {
+      padding: 0px;
+    }
+    .hero-header {
+      padding-left: 10px;
+    }
+    .hero-header h1 {
+      font-size: 28px;
+    }
+    .hero-header p {
+      font-size: 14px;
+    }
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .information {
+      display: grid;
+      grid-template-areas:
+        "box1 box2"
+        "box3 box3";
+      gap: 10px;
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .information .box1 {
+      grid-area: box1;
+      padding: 25px 25px;
+      margin: 0;
+    }
+  
+    .information .box2 {
+      grid-area: box2;
+      padding: 25px 25px;
+      margin: 0;
+    }
+  
+    .information .box3 {
+      grid-area: box3;
+      padding: 25px 25px;
+      margin: 0;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .none {
+      display: none;
+    }
+    .hotel-cards {
+      padding: 0;
+    }
+    .card-hotel {
+      padding: 25px;
+      margin: 15px;
+    }
+    .img-hotel {
+      width: 100%;
+      height: 40%;
+    }
+    .room-information {
+      gap: 5px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+    .room-information div {
+      font-size: 18px;
+      width: 49%;
+      height: 40%;
+      white-space: nowrap;
+    }
+    .checkout {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      margin-top: 50px;
+      gap: 30px;
+    }
+    .checkout .btn-Primary {
+      padding: 20px 20px;
+    }
+    .more {
+      justify-content: flex-end;
+      padding: 10px 20px;
+    }
+    .moreb {
+      align-items: center;
+    }
+    .part {
+      position: relative;
+    }
+    .btn-absolute {
+      position: absolute;
+      text-align: center;
+      left: 20px;
+      top: 105%;
+      width: 43%;
+      padding: 15px 0px;
+    }
+    .none- {
+      display: contents;
+    }
+    .hotel {
+      padding: 20px;
+      padding-top: 40px;
+    }
+    .rate {
+      padding: 20px;
+      padding-top: 40px;
+    }
+    .frequently-questions {
+      padding: 20px;
+      padding-top: 40px;
+    }
+    .part-header h1 {
+      font-size: 28px;
+    }
+    .part-header p {
+      font-size: 14px;
+      opacity: 0.5;
+    }
+    .part-header {
+      width: 90%;
+    }
+    .card-rate {
+      padding: 25px;
+      margin: 15px;
+      height: 380px;
+    }
+    .star {
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+    .r {
+      top: 107%;
+    }
+    .card-questions {
+      padding: 25px;
+      margin: 15px;
+      height: 380px;
+    }
+    .card-questions .btn-dark {
+      display: block;
+      width: 95%;
+      text-align: center;
+    }
+    .hotel-question {
+      padding: 0;
+    }
+    .card-questions .btn-more {
+      width: 93%;
+    }
+    .last-main {
+      flex-direction: column;
+      padding: 30px 20px;
+      background: url(../image/last-part-of-main-background-left.png);
+      gap: 25px;
+    }
+    .last-main-text {
+      width: 100%;
+    }
+    .last-main-text h1 {
+      font-size: 28px;
+    }
+    .last-main-text p {
+      font-size: 14px;
+      opacity: 0.5;
+    }
+    .last-main .btn-Primary {
+      width: 90%;
+      text-align: center;
+    }
+    .topto {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }

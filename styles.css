@@ -1,0 +1,296 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1500px;
+}
+.logo-img {
+  width: 100px;
+  height: 40px;
+}
+.location-img {
+  width: 15px;
+  height: 18px;
+}
+.top-nav {
+  display: flex;
+  background: rgb(19, 25, 33);
+  color: white;
+  padding: 10px;
+  height: 40px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.location {
+  width: 139px;
+  height: 50px;
+  margin-left: 20px;
+  h4 {
+    margin-top: -4px;
+    margin-left: -10px;
+  }
+}
+.search-menu {
+  width: 72px;
+  height: 38px;
+  background: rgb(222, 228, 228);
+  color: rgb(102, 101, 101);
+}
+.search-bar {
+  width: 560px;
+  height: 33px;
+}
+.search-btn {
+  width: 45px;
+  height: 40px;
+  background: rgb(254, 189, 105);
+  margin-left: -9px;
+}
+.info {
+  display: flex;
+}
+.lang {
+  margin-left: 20px;
+  display: flex;
+}
+.us-flag {
+  width: 22px;
+  height: 16px;
+}
+.account {
+  width: 139px;
+  height: 50px;
+  margin-left: 20px;
+  h4 {
+    margin-top: -4px;
+    margin-left: -10px;
+  }
+}
+.orders {
+  width: 139px;
+  height: 50px;
+  /* margin-left: 20px; */
+  h4 {
+    margin-top: -4px;
+    margin-left: -10px;
+  }
+}
+.cart {
+  width: 139px;
+  height: 50px;
+  margin-left: -40px;
+  h4 {
+    margin-top: -4px;
+    margin-left: -10px;
+  }
+  img {
+    width: 38px;
+    height: 26px;
+  }
+}
+.nav-shop {
+  display: flex;
+  gap: 20px;
+  background: rgb(35, 47, 62);
+  font-size: 14px;
+  padding: 10px;
+  font-size: 14px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+.notice {
+  background: rgb(216, 247, 235);
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.cards-area {
+  width: 100%;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(./images/61lwJy4B8PL._SX3000_.jpg);
+}
+
+.card {
+  position: relative;
+  padding: 1rem;
+  display: grid;
+  flex-direction: column;
+  margin-right: 1rem;
+  height: 8rem;
+  width: 10rem;
+  z-index: 4;
+}
+
+.see {
+  position: absolute;
+  flex-grow: 1;
+  color: #2ab1a3;
+  bottom: 0;
+  padding: 0.5rem;
+}
+
+.card4 {
+  margin-right: 0;
+}
+
+.card-items {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+
+.card-item {
+  padding: 0.5rem;
+}
+
+.card-item p {
+  font-size: smaller;
+}
+
+.card-item img {
+  width: 5rem;
+  height: 3rem;
+}
+
+.inner-line {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.line {
+  box-sizing: border-box;
+  display: block;
+  width: 94%;
+  height: 100%;
+  background: #fff;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.line h2 {
+  margin: 1rem;
+}
+
+.roller {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.roller img {
+  margin-left: 5rem;
+  max-width: 200px;
+  height: 100%;
+}
+
+.back-to-top {
+  width: 100%;
+  height: 7vh;
+  padding-left: 20px;
+  margin-top: 2.5rem;
+  color: white;
+  cursor: pointer;
+  border: none;
+  background-color: #37475a;
+}
+.back-to-top:hover {
+  opacity: 0.9;
+}
+footer {
+  color: #dedede;
+}
+.footer-navbar-container {
+  background-color: #232f3e;
+}
+.footer-navbar,
+.amazon-links-footer {
+  display: grid;
+  width: 75vw;
+  height: auto;
+  margin: auto;
+
+  line-height: 1.8rem;
+}
+.footer-navbar {
+  grid-template-columns: repeat(4, 1fr);
+}
+.last-footer-container {
+  background-color: #131a22;
+}
+.amazon-links-footer {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.footer-navbar-section,
+.amazon-links-footer-item {
+  padding: 1.5rem;
+}
+.p-heading-nav-footer {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+.p-content-footer {
+  font-size: 0.85rem;
+}
+hr {
+  opacity: 0.1;
+}
+.change-language-container {
+  height: 20vh;
+}
+.change-language {
+  display: grid;
+  width: 50vw;
+  height: auto;
+  margin: auto;
+  margin-top: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  line-height: 1.8rem;
+  /* line-height: 0.9rem; */
+}
+.change-language-item {
+  width: 150px;
+  height: 35px;
+  border: 1px solid rgba(139, 137, 137, 0.5);
+  padding: 4px 0 4px 10px;
+}
+.amazon-links-footer-container {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+
+  line-height: 1rem;
+}
+.p-heading-amazon-links-footer {
+  font-size: 0.8rem;
+}
+.p-content-amazon-links-footer {
+  font-size: 0.7rem;
+  opacity: 0.6;
+}
+.copyright {
+  width: 100%;
+  background-color: #131a22;
+  padding: 30px;
+}
+.p-copyright {
+  margin: auto;
+}
+
+/* Laptop */
+
+@media screen and (max-width: 1400px) {
+  .inner-container {
+    width: 100%;
+  }
+}
